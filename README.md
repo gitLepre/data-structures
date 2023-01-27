@@ -1,5 +1,11 @@
 # Project Overview
-This project is a simple library/collection of algorithms and data structures with a very "readable" usage.
+This project is a simple library/collection of algorithms and data structures with a very "readable" usage, such as:
+
+```javascript
+Sort(values).with.mergeSort();
+```
+
+NOTE: This is still a work in progress.
 
 ## Project structure
 ### notebooks folder
