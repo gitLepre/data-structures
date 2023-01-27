@@ -1,0 +1,19 @@
+{
+  "name": "notebooks",
+  "version": "1.0.0",
+  "description": "my algorithms learning journey",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register 'test/**/*.ts'",
+    "start": "tsc && node dist/app.js"
+  },
+  "author": "Federico Lorrai",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "@types/mocha": "^9.1.1",
+    "chai": "^4.3.6",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {}
+}
