@@ -1,5 +1,5 @@
 # Project Overview
-This project is a simple library/collection of algorithms and data structures. It's still a work in progress
+This project is a simple library/collection of algorithms and data structures with a very "readable" usage.
 
 ## Project structure
 ### notebooks folder
@@ -8,4 +8,20 @@ Contains all the algorithms and data structures
 Contains all test files
 
 ## How to use
-You need node installed on your system, simply launch npm install and then the script npm start or npm run start to compile all typescript files and create a dist folder
+To run the project you only need node.js installed on your system. Run npm install and then npm start to initialize it. Here's a simple example of usage of the libraries.
+
+```javascript
+import { Search } from "./notebooks/algorithms/search";
+import { Sort } from "./notebooks/algorithms/sorting";
+import { Util } from "./notebooks/algorithms/util";
+
+const main = () => {
+  const values = [4, 2, 8, 11, 23, 35, 1, 3, 5];
+
+  Sort(values).with.mergeSort();
+
+  console.log(values);
+};
+
+main();
+```
